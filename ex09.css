@@ -1,0 +1,54 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 16px;
+}
+
+.sentret {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.ledyba {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.hoothoot {
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.spinarak {
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
+}
+
+.sentret, .ledyba {
+    justify-self: center
+}
+
+.hoothoot, .spinarak {
+    justify-self: end;
+}
+
+.sentret {
+    padding: 9px;
+    border: 2px solid rgb(128, 111, 76);
+}
+
+.ledyba {
+    padding: 9px;
+    border: 2px solid rgb(253, 198, 114);
+}
+
+.hoothoot {
+    padding: 9px;
+    border: 2px solid rgb(245, 149, 149);
+}
+
+.spinarak {
+    padding: 9px;
+    border: 2px solid rgb(135, 230, 159);
+}
